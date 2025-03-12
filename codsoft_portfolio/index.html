@@ -4,431 +4,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jagan Portfolio</title>
-    <link rel="icon" href="Assets/jaganp.jpg">
+    <title>Portfolio | Jagan</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Lobster&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:wght@300;400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div id="Portfolio"><a href="#about_head">Jagan Portfolio</a></div>
-        <div class="navlist hide">
-            <nav class="hide">
-                <a href="#about_head">About</a>
-                <a href="#skills_head">Skills</a>
-                <a href="#education_head">Education</a>
-                <a href="#projects_head">Projects</a>
-                <a href="#contacts_head">Contacts</a>
-                <a id="profile" href="https://github.com/JaganParida" target="#">Github Profile</a>
-            </nav>
-        </div>
-        <div>
-        </div>
-        <div id="menuicon"><i class="fa-solid fa-bars"></i>
-        </div>
+        <nav>
+            <div class="logo">Jagan PortFolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projectHead">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        <h1 class="header" id="about_head"></h1>
-        <div class="page" id="page1">
-            <div id="home">
-                <div class="quote">
-                    <div class="name">
-                        <h1>Hi, I am</h1>
-                        <h1>Jagan Parida</h1>
-                    </div>
-                    <div class="container">
-                        <h2>I'm a<span class="auto-type"></span></h2>
-                    </div>
-                    <div class="note">
-                        <p>As a B.Tech Computer Science student, I am passionate about solving problems through
-                            innovative software solutions. I
-                            specialize in full-stack development, with expertise in HTML, CSS, JavaScript, React,
-                            Python, Node.js, and databases. My
-                            portfolio showcases impactful projects that bridge front-end and back-end development,
-                            reflecting my dedication to
-                            learning, collaboration, and building user-friendly, impactful web applications.
-                        </p>
-                    </div>
-
-                    <div id="link">
-                        <div class="resume">
-                            <span class="check"><a href="Assets/JaganParida_Resume.pdf"
-                                    download="JaganParida_Resume.pdf"><button>Check
-                                        Resume</button></a></span>
-                            <span class="check"><a href="#contacts_head"><button>Hire Me</button></a></span>
-                        </div>
-                    </div>
-                </div>
-
-                <img data-tilt data-tilt-glare src="Assets/jaganp.jpg" alt="">
-            </div>
-
+    <section id="home" class="hero">
+        <div class="content">
+            <h1>Hi, I'm <span>Jagan Parida</span></h1>
+            <p class="typewriter">Full-Stack Developer | Problem Solver | CSE Student</p>
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="Assets/JaganParida_Resume.pdf" class="btn" download="JaganParida_Resume.pdf">
+                Check
+                Resume
+            </a>
         </div>
+    </section>
 
-        <h1 class="header" id="skills_head">Skills</h1>
-        <div class="page" id="page2">
-            <div id="skill-list">
-                <div id="skills">
-                    <h1>Frontend</h1>
-                    <div id="skill">
-                        <div id="webdev">
-                            <img src="Assets/html.png" alt="">
-                            HTML
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/css.png" alt="">
-                            CSS
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/js.png" alt="">
-                            Javascript
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/react.png" alt="">
-                            React Js
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/typescript.png" alt="">
-                            TypeScript
-                        </div>
+    <section id="about" class="section">
+        <h2 class="header">About Me</h2>
+        <img src="Assets/jaganp.jpg" alt="Jagan Parida" class="profile-pic">
+        <p>As a B.Tech Computer Science student, I am passionate about solving problems through innovative software
+            solutions. I
+            specialize in full-stack development, with expertise in HTML, CSS, JavaScript, React, Python, Node.js, and
+            databases. My
+            portfolio showcases impactful projects that bridge front-end and back-end development, reflecting my
+            dedication to
+            learning, collaboration, and building user-friendly, impactful web applications.</p>
+    </section>
 
-                    </div>
-                </div>
-                <div id="skills">
-                    <h1>Backend</h1>
-                    <div id="skill">
-                        <div id="webdev">
-                            <img src="Assets/express.png" alt="">
-                            Express Js
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/nodejs.png" alt="">
-                            Node Js
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/c.png" alt="">
-                            C
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/java.png" alt="">
-                            Java
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/python.png" alt="">
-                            Python
-                        </div>
-                    </div>
-                </div>
-                <div id="skills">
-                    <h1>AI Tools</h1>
-                    <div id="skill">
-                        <div id="webdev">
-                            <img src="Assets/chatgpt-logo.png" alt="">
-                            ChatGPT
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/gemini.png" alt="">
-                            Gemini
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/microsoft-copilot.png" alt="">
-                            Copilot
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/microsoft-designer.png" alt="">
-                            Microsoft Designer
-                        </div>
+    <section id="skills" class="section">
+        <h2 class="header">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Bootstrap</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">MongoDB</div>
+        </div>
+    </section>
 
-                    </div>
+    <h2 class="header" id="projectHead">Projects</h2>
+    <div class="page" id="page4">
+        <div id="project-list">
+            <div id="projects">
+                <img src="Assets/spotify.png" alt="">
+                <div class="uses">
+                    <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JS</span>
                 </div>
-                <div id="skills">
-                    <h1>Microsoft Tools</h1>
-                    <div id="skill">
-                        <div id="webdev">
-                            <img src="Assets/vscode.png" alt="">
-                            VS Code
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/visualstudio.png" alt="">
-                            Visual Studio
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/Microsoft_365.png" alt="">
-                            Microsoft 365
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/office_365.png" alt="">
-                            Office 365
-                        </div>
-
-                    </div>
-                </div>
-                <div id="skills">
-                    <h1>UI/UX Design</h1>
-                    <div id="webdev">
-                        <img src="Assets/bootstrap.png" alt="">
-                        Bootstrap
-                    </div>
-                    <div id="webdev">
-                        <img src="Assets/tailwindcss.png" alt="">
-                        Tailwind CSS
-                    </div>
-                    <div id="webdev">
-                        <img src="Assets/materialui.png" alt="">
-                        Material UI
-                    </div>
-
-                </div>
-                <div id="skills">
-                    <h1>Cloud Database</h1>
-                    <div id="skill">
-                        <div id="webdev">
-                            <img src="Assets/sql.png" alt="">
-                            MySQL
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/mongodb.png" alt="">
-                            MongoDB
-                        </div>
-                        <div id="webdev">
-                            <img src="Assets/aws.png" alt="">
-                            AWS
-                        </div>
-                    </div>
+                <h3>Spotify Clone</h3>
+                <p>This project is a Spotify UI clone built using HTML, CSS, and Bootstrap. It replicates Spotify's
+                    design while offering a
+                    redirect link to the original website for comparison or further exploration.For
+                    better view
+                    click on live button.</p>
+                <div class="viewLink">
+                    <a href="https://github.com/JaganParida/Spotify_clone"><button class="view">view code
+                        </button></a>
+                    <a href="https://jaganparida.github.io/Spotify_clone/"><button class="live">view
+                            live</button></a>
                 </div>
 
 
             </div>
-        </div>
-
-        <h1 class="header" id="education_head">Education</h1>
-        <div class="page" id="page3">
-            <div id="skill-list">
-                <div class="edu">
-                    <img src="Assets/centurion.png" alt="">
-                    <div>Btech CSE
-                        <div>
-                            <h6>from 2023-27</h6>
-                            <h6>I'm continuing my BTECH in Centurion University Bhubaneswar</h6>
-                            <h6>Grade: 8.7 cgpa(1st year) </h6>
-                        </div>
-                    </div>
+            <div id="projects">
+                <img src="Assets/amazon.png" alt="">
+                <div class="uses">
+                    <span>HTML</span><span>CSS</span>
                 </div>
-                <div class="edu">
-                    <img src="Assets/nist.png" alt="">
-                    <div>12th Science
-                        <div>
-                            <h6>from 2021-23</h6>
-                            <h6>I have completed my 12th from NIST Higher Secondary School</h6>
-                            <h6>Grade: 86.33%</h6>
-                        </div>
-                    </div>
+                <h3>Amazon Clone &nbsp;</h3>
+                <p>An Amazon UI clone project designed using only HTML and CSS. It replicates the homepage layout,
+                    showcasing responsive
+                    design, styling techniques, and user-friendly interface aesthetics for practice.For
+                    better view
+                    click on live button</p>
+                <div class="viewLink">
+                    <a href="https://github.com/JaganParida/Amazon_UI_Clone"><button class="view">view
+                            code</button></a>
+                    <a href="https://jaganparida.github.io/Amazon_UI_Clone/"><button class="live">view
+                            live</button></a>
+
+                </div>
+            </div>
+
+            <div id="projects">
+                <img src="Assets/calculatorNew.png" alt="">
+                <div class="uses">
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                </div>
+                <h3>Calculator&nbsp;&nbsp;&nbsp;</h3>
+                <p>This project is a simple calculator built using HTML and CSS, featuring a visually appealing
+                    layout for performing basic
+                    arithmetic operations like addition, subtraction, multiplication, and division..For
+                    better
+                    view
+                    click on live button.</p>
+                <div class="viewLink"><a href="https://github.com/JaganParida/Simple_Calculator"><button
+                            class="view">view
+                            code</button></a><a href="https://jaganparida.github.io/Simple_Calculator/"><button
+                            class="live">view
+                            live</button></a>
+                </div>
+            </div>
+            <div id="projects">
+                <img src="Assets/tictactoe.png" alt="">
+                <div class="uses">
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                </div>
+                <h3>Tic Tac Toe Game</h3>
+                <p>A simple Tic-Tac-Toe game for two players.
+                    Players take turns marking X and O on a 3x3 grid.
+                    The game checks for a winner or draw automatically.
+                    A reset button allows starting a new game anytime.For
+                    view
+                    click on below button</p>
+                <div class="viewLink"><a href="https://github.com/JaganParida/TicTacToe_Game"><button class="view">view
+                            code</button></a>
+                    <a href="https://jaganparida.github.io/TicTacToe_Game/"><button class="live">view
+                            live</button></a>
                 </div>
             </div>
         </div>
-
-        <h1 class="header" id="projects_head">Projects</h1>
-        <div class="page" id="page4">
-            <div id="project-list">
-                <div id="projects">
-                    <img src="Assets/Wanderlust.png" alt="">
-                    <div class="uses">
-                        <span>EJS</span><span>JS</span><span>CSS</span><span>Bootstrap</span><span>MongoDB</span><span>Express</span><span>Node.js</span>
-                    </div>
-                    <h3>WanderLodge Website</h3>
-                    <p>WanderLodge, inspired by Airbnb, is a full-stack web app connecting travelers with unique stays.
-                        It features property
-                        listings, user authentication, and interactive maps for seamless and enjoyable travel
-                        planning.For view
-                        click on below button</p>
-                    <div class="viewLink">
-                        <a href="https://github.com/JaganParida/FullStack-Project"><button class="view">view
-                                code</button>
-                        </a>
-                        <a href="https://wanderlust-project-mcgi.onrender.com"> <button class="live">view
-                                live
-                            </button></a>
-                    </div>
+    </div>
 
 
-
-                </div>
-                <div id="projects">
-                    <img src="Assets/spotify.png" alt="">
-                    <div class="uses">
-                        <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JS</span>
-                    </div>
-                    <h3>Spotify UI Clone</h3>
-                    <p>This project is a Spotify UI clone built using HTML, CSS, and Bootstrap. It replicates Spotify's
-                        design while offering a
-                        redirect link to the original website for comparison or further exploration.For
-                        better view
-                        click on live button.</p>
-                    <div class="viewLink">
-                        <a href="https://github.com/JaganParida/Spotify_clone"><button class="view">view code
-                            </button></a>
-                        <a href="https://jaganparida.github.io/Spotify_clone/"><button class="live">view
-                                live</button></a>
-                    </div>
-
-
-                </div>
-                <div id="projects">
-                    <img src="Assets/amazon.png" alt="">
-                    <div class="uses">
-                        <span>HTML</span><span>CSS</span>
-                    </div>
-                    <h3>Amazon UI Clone</h3>
-                    <p>An Amazon UI clone project designed using only HTML and CSS. It replicates the homepage layout,
-                        showcasing responsive
-                        design, styling techniques, and user-friendly interface aesthetics for practice.For
-                        better view
-                        click on live button</p>
-                    <div class="viewLink">
-                        <a href="https://github.com/JaganParida/Amazon_UI_Clone"><button class="view">view
-                                code</button></a>
-                        <a href="https://jaganparida.github.io/Amazon_UI_Clone/"><button class="live">view
-                                live</button></a>
-
-                    </div>
-                </div>
-                <div id="projects">
-                    <img src="Assets/simon.png" alt="">
-                    <div class="uses">
-                        <span>HTML</span><span>CSS</span><span>JS</span>
-                    </div>
-                    <h3>Simon Says Game</h3>
-                    <p>Game make fun,The Simon Says game is a classic memory challenge where players repeat sequences of
-                        colors. Built using HTML,
-                        CSS and JS, it showcases interactive animations and visually appealing transitions..For better
-                        view
-                        click on live button.</p>
-                    <div class="viewLink"><a href="https://github.com/JaganParida/Simon_says_Game"><button
-                                class="view">view
-                                code</button></a> <a href="https://jaganparida.github.io/Simon_says_Game/"><button
-                                class="live">view live</button></a>
-                    </div>
-                </div>
-                <div id="projects">
-                    <img src="Assets/calculator.png" alt="">
-                    <div class="uses">
-                        <span>HTML</span><span>CSS</span><span>JS</span>
-                    </div>
-                    <h3>Calculator&nbsp;</h3>
-                    <p>This project is a simple calculator built using HTML and CSS, featuring a visually appealing
-                        layout for performing basic
-                        arithmetic operations like addition, subtraction, multiplication, and division..For
-                        better
-                        view
-                        click on live button.</p>
-                    <div class="viewLink"><a href="https://github.com/JaganParida/Simple_Calculator"><button
-                                class="view">view code</button></a><a
-                            href="https://jaganparida.github.io/Simple_Calculator/"><button class="live">view
-                                live</button></a>
-                    </div>
-                </div>
-                <div id="projects">
-                    <img src="Assets/todo.png" alt="">
-                    <div class="uses">
-                        <span>HTML</span><span>CSS</span><span>React.js</span>
-                    </div>
-                    <h3>To-Do App</h3>
-                    <p>This project is a simple To-Do app using HTML and CSS only. It allows users to list tasks, mark
-                        them as completed, and
-                        delete them, providing a clean, user-friendly interface..For better view
-                        click on live button </p>
-                    <div class="viewLink"><a href="https://github.com/JaganParida/TODO_APP"><button class="view">view
-                                code</button></a><a href="https://jaganparida.github.io/TODO_APP/"><button
-                                class="live">view live</button></a>
-                    </div>
-                </div>
-                <div id="projects">
-                    <img src="Assets/weatherApp.png" alt="">
-                    <div class="uses">
-                        <span>HTML</span><span>CSS</span><span>JS</span><span>React.js</span>
-                    </div>
-                    <h3>Weather website</h3>
-                    <p>A weather app using HTML, CSS, JavaScript, and React fetches real-time weather data via an API,
-                        displaying temperature,
-                        humidity, wind speed, and forecasts with a user-friendly interface and responsive design.For
-                        view
-                        click on below button</p>
-                    <div class="viewLink"><a href="https://github.com/JaganParida/Weather_App"><button class="view">view
-                                code</button></a>
-                        <a href="https://jaganparida.github.io/Weather_App/"><button class="live">view
-                                live</button></a>
-                    </div>
-                </div>
-                <div id="projects">
-                    <img src="Assets/tictactoe.png" alt="">
-                    <div class="uses">
-                        <span>HTML</span><span>CSS</span><span>JS</span>
-                    </div>
-                    <h3>Tic Tac Toe Game</h3>
-                    <p>A simple Tic-Tac-Toe game for two players.
-                        Players take turns marking X and O on a 3x3 grid.
-                        The game checks for a winner or draw automatically.
-                        A reset button allows starting a new game anytime.For
-                        view
-                        click on below button</p>
-                    <div class="viewLink"><a href="https://github.com/JaganParida/TicTacToe_Game"><button
-                                class="view">view
-                                code</button></a>
-                        <a href="https://jaganparida.github.io/TicTacToe_Game/"><button class="live">view
-                                live</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <h1 class="header" id="contacts_head">Contact Me</h1>
-        <div id="page5">
-            <div class="contact">
-                <div id="contact">
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="30e48d28-8ced-46de-a1a4-95ea3c27c7fd">
-                        <input class="name" type="text" name="name" required placeholder="Enter Your Name">
-                        <input type="email" name="email" required placeholder="Enter your Email">
-                        <input type="text" name="subject" required placeholder="Subjcet" />
-                        <textarea class="message" name="message" required
-                            placeholder="Message me for any suggetion"></textarea>
-                        <button>Send</button>
-                    </form>
-                </div>
-
-            </div>
-
+    <section id="contact" class="section header">
+        <h2 class="header">Contact</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> jaganparida39064@gmail.com</p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/JaganParida">GitHub</a></p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/jagan-parida-7439002a0">LinkedIn</a>
+            </p>
         </div>
     </section>
 
     <footer>
-        <div>@Jagan Parida</div>
-        <div class="link">
-            <a href="https://www.linkedin.com/in/jagan-parida-7439002a0" target="#"><i
-                    class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/imurjagan/profilecard/?igsh=MWN5MmZuYm42dHV4YQ==" target="#"><i
-                    class="fa-brands fa-instagram"></i></a>
-            <a href="https://x.com/JaganParida0504?t=8bIfF9ByM8BJbc5Gux6pHA&s=09" target="#"><i
-                    class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://www.facebook.com/share/1Ed869N3Z6/" target="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://github.com/JaganParida"><i class="fa-brands fa-github"></i></a>
-        </div>
-        <div>
-            &copy;2024 Jagan . All rights reserved.
-        </div>
+        <p>&copy; 2025 Jagan Parida. All Rights Reserved.</p>
     </footer>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="app.js"></script>
-    <script src="vanila-till.js"></script>
 </body>
 
 </html>
