@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.calcDiv {
+  width: 280px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #cbcbcb;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+}
+form .display {
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+form .display input {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  background-color: rgb(225, 219, 219);
+  color: #000000;
+  border: none;
+  text-align: right;
+  direction: ltr;
+  unicode-bidi: plaintext;
+  outline: none;
+}
+
+form .container {
+  width: 100%;
+  background-color: aqua;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(189, 189, 189);
+}
+form .container .button {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+form .container .button button {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 25px;
+  border: none;
+  background-color: #333333;
+  color: #fff;
+  margin: 3px;
+}
